@@ -22,23 +22,33 @@ load_data <- function (x) {
 
 wq <- load_data(99867)
 
+coastline <- st_read("data/lds-nz-coastlines-and-islands-polygons-topo-1500k-SHP/nz-coastlines-and-islands-polygons-topo-1500k.shp") |>
+  st_simplify(dTolerance = 500)
 
 # plot --------------------------------------------------------------------
+
+my_breaks = c(0.01, 1, 2.5, 5, 10)
 
 wq %>%
   filter(np_id == "NO3N") %>%
   st_as_sf(coords = c("nztme", "nztmn"), crs = 2193) %>%
   arrange(median) %>%
   ggplot() +
+  geom_sf(data = coastline,
+          fill = NA,
+          size = 0.25) +
   geom_sf(aes(size = median,
               colour = median),
           alpha = 0.65,
           stroke = 0) +
   scale_size(range = c(1, 15),
-             trans = "pseudo_log") +
+             trans = "pseudo_log",
+             breaks = my_breaks) +
   #scale_color_viridis_c() +
-  scale_color_gradient(low = "#1d3153", high = "#74b493",
-                       trans = "pseudo_log") +
+  scale_color_gradient(low = "#1d3153",
+                       high = "#74b493",
+                       trans = "pseudo_log",
+                       breaks = my_breaks) +
   theme_void()
 
 
