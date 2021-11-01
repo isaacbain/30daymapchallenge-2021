@@ -6,4 +6,6 @@ Official repo: https://github.com/tjukanovt/30DayMapChallenge
 
 Nitrogen pollution in New Zealand rivers
 
-<img src="outputs/day1-illustrator.jpg" width=400 align=left>
+<a href="outputs/day1-illustrator.pdf">
+  <img src="outputs/day1-illustrator.jpg" width=400 align=left>
+</a>
