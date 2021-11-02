@@ -18,6 +18,6 @@ The colours in the colour scale were chosen by looking at the waterbodies with t
 
 What better lines than river centrelines! This dataset incorporates random forest modelling to estimate MCI scores for every river segment in the country. 
 
-<a href="outputs/day2-illustrator.jpg">
+<a href="https://raw.githubusercontent.com/isaacbain/30daymapchallenge-2021/main/outputs/day2-illustrator.jpg">
   <img src="outputs/day2-illustrator.jpg" width=400 align=centre>
 </a>
