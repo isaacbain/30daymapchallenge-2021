@@ -16,7 +16,7 @@ The colours in the colour scale were chosen by looking at the waterbodies with t
 
 ## Day 2 - lines
 
-What better lines than river centrelines! This dataset incorporates random forest modelling to estimate MCI scores for every river segment in the country. 
+What better lines than river centrelines! This dataset incorporates random forest modelling to estimate MCI scores for every river segment in the country. Available at: https://data.mfe.govt.nz/table/99871-river-water-quality-modelled-state-20132017/
 
 <a href="https://raw.githubusercontent.com/isaacbain/30daymapchallenge-2021/main/outputs/day2-illustrator.jpg">
   <img src="outputs/day2-illustrator.jpg" width=400 align=centre>
