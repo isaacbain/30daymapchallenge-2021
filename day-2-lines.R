@@ -20,13 +20,46 @@ load_data <- function (x) {
   }
 }
 
-wq <- load_data(99871)
+#wq <- load_data(99871)
 
+load("data/rec2.Rdata")
+wq <- read_csv("data/mfe-river-water-quality-modelled-state-20132017-CSV/river-water-quality-modelled-state-20132017.csv")
 
-coastline <- st_read("data/lds-nz-coastlines-and-islands-polygons-topo-1500k-SHP/nz-coastlines-and-islands-polygons-topo-1500k.shp") |>
+rec2_joined <- rec2 %>%
+  left_join(wq %>% filter(np_id == "MCI"), "nzsegment")
+
+coastline <- st_read("data/lds-nz-coastlines-and-islands-polygons-topo-1500k-SHP/nz-coastlines-and-islands-polygons-topo-1500k.shp") %>%
   st_simplify(dTolerance = 500)
 
 
 # plot --------------------------------------------------------------------
 
+rec2_joined %>%
+  #filter(Region == "Northland Region") %>%
+  filter(Region %in% c("Northland Region",
+                       "Auckland Region",
+                       "Waikato Region",
+                       "Bay of Plenty Region",
+                       "Gisborne Region",
+                       "Manawatu-Wanganui Region",
+                       "Hawke's Bay Region",
+                       "Taranaki Region",
+                       "Wellington Region")) %>%
+  filter(StreamOrde > 1) %>%
+  arrange(CUM_AREA) %>%
+  ggplot() +
+  geom_sf(data = coastline %>% filter(stringr::str_detect(name, "North Island or Te")),
+          fill = NA,
+          colour = "white",
+          size = 0.25) +
+  geom_sf(aes(colour = median,
+              size = CUM_AREA),
+          lineend = "round",
+          linejoin = "bevel") +
+  scale_size(range = c(0.01, 0.5), trans = "log10") +
+  scale_colour_viridis_c(direction = -1, option = "C") +
+  theme_void()
 
+# export ------------------------------------------------------------------
+
+ggsave("outputs/day2.pdf", width = 297, height = 420, units = "mm")
