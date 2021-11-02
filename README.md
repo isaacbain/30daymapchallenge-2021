@@ -11,7 +11,7 @@ Here I map nitrogen pollution in New Zealand rivers, using a dataset of observat
 The colours in the colour scale were chosen by looking at the waterbodies with the best & worst nitrogen concentrations and getting an average RGB value from Sentinel-2 satellite imagery, then using a linear interpolation between the two colours to create a colour gradient. 
 
 <a href="outputs/day1-illustrator.pdf">
-  <img src="outputs/day1-illustrator.jpg" width=400 align=left>
+  <img src="outputs/day1-illustrator.jpg" width=400 align=centre>
 </a>
 
 ## Day 2 - lines
@@ -19,5 +19,5 @@ The colours in the colour scale were chosen by looking at the waterbodies with t
 What better lines than river centrelines! This dataset incorporates random forest modelling to estimate MCI scores for every river segment in the country. 
 
 <a href="outputs/day2-illustrator.jpg">
-  <img src="outputs/day2-illustrator.jpg" width=400 align=left>
+  <img src="outputs/day2-illustrator.jpg" width=400 align=centre>
 </a>
