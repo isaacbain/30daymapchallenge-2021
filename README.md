@@ -38,6 +38,6 @@ Data available at: https://data.mfe.govt.nz/layer/52760-marine-reserves/
 The Agricultural Production Survey collates some very useful farm-level statistics and aggregates them to a hex-grid for confidentality reasons. 
 Data available at: https://data.mfe.govt.nz/layer/99906-livestock-numbers-grid-aps-2017/
 
-<a href="https://raw.githubusercontent.com/isaacbain/30daymapchallenge-2021/main/outputs/day4-illustrator.jpg">
+<a href="https://raw.githubusercontent.com/isaacbain/30daymapchallenge-2021/main/outputs/day4-illustrator.pdf">
   <img src="outputs/day4-illustrator.jpg" width=400 align=centre>
 </a>
