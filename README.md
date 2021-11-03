@@ -26,7 +26,7 @@ What better lines than river centrelines! This dataset incorporates random fores
 
 I love small multiples maps, and I love marine reserves! Dataset available at: https://data.mfe.govt.nz/layer/52760-marine-reserves/
 
-<a href="https://raw.githubusercontent.com/isaacbain/30daymapchallenge-2021/main/outputs/day3-illustrator.pdf">
+<a href="https://raw.githubusercontent.com/isaacbain/30daymapchallenge-2021/main/outputs/day3-illustrator.jpg">
   <img src="outputs/day3-illustrator.jpg" width=400 align=centre>
 </a>
 
