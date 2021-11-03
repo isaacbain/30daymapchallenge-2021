@@ -29,7 +29,7 @@ Data available at: https://data.mfe.govt.nz/table/99871-river-water-quality-mode
 I love small multiples maps, and I love marine reserves! Here I chopped out each marine reserve polygon on its own and arranged in a grid. 
 Data available at: https://data.mfe.govt.nz/layer/52760-marine-reserves/
 
-<a href="https://raw.githubusercontent.com/isaacbain/30daymapchallenge-2021/main/outputs/day3-illustrator.jpg">
+<a href="outputs/day3-illustrator.pdf">
   <img src="outputs/day3-illustrator.jpg" width=400 align=centre>
 </a>
 
