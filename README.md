@@ -21,3 +21,12 @@ What better lines than river centrelines! This dataset incorporates random fores
 <a href="https://raw.githubusercontent.com/isaacbain/30daymapchallenge-2021/main/outputs/day2-illustrator.jpg">
   <img src="outputs/day2-illustrator.jpg" width=400 align=centre>
 </a>
+
+## Day 2 - polygons
+
+I love small multiples maps, and I love marine reserves! Dataset available at: https://data.mfe.govt.nz/layer/52760-marine-reserves/
+
+<a href="https://raw.githubusercontent.com/isaacbain/30daymapchallenge-2021/main/outputs/day3-illustrator.pdf">
+  <img src="outputs/day3-illustrator.jpg" width=400 align=centre>
+</a>
+
