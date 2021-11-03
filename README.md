@@ -6,7 +6,8 @@ Official repo: https://github.com/tjukanovt/30DayMapChallenge
 
 ## Day 1 - points
 
-Here I map nitrogen pollution in New Zealand rivers, using a dataset of observations from Ministry for the Environment's environmental reporting team. Available at: https://data.mfe.govt.nz/table/99867-river-water-quality-state-20132017/. 
+Here I map nitrogen pollution in New Zealand rivers, using a dataset of observations from Ministry for the Environment's environmental reporting team. 
+Data available at: https://data.mfe.govt.nz/table/99867-river-water-quality-state-20132017/. 
 
 The colours in the colour scale were chosen by looking at the waterbodies with the best & worst nitrogen concentrations and getting an average RGB value from Sentinel-2 satellite imagery, then using a linear interpolation between the two colours to create a colour gradient. 
 
@@ -16,15 +17,17 @@ The colours in the colour scale were chosen by looking at the waterbodies with t
 
 ## Day 2 - lines
 
-What better lines than river centrelines! This dataset incorporates random forest modelling to estimate MCI scores for every river segment in the country. Available at: https://data.mfe.govt.nz/table/99871-river-water-quality-modelled-state-20132017/
+What better lines than river centrelines! This dataset incorporates random forest modelling to estimate MCI scores for every river segment in the country. 
+Data available at: https://data.mfe.govt.nz/table/99871-river-water-quality-modelled-state-20132017/
 
 <a href="https://raw.githubusercontent.com/isaacbain/30daymapchallenge-2021/main/outputs/day2-illustrator.jpg">
   <img src="outputs/day2-illustrator.jpg" width=400 align=centre>
 </a>
 
-## Day 2 - polygons
+## Day 3 - polygons
 
-I love small multiples maps, and I love marine reserves! Dataset available at: https://data.mfe.govt.nz/layer/52760-marine-reserves/
+I love small multiples maps, and I love marine reserves! Here I chopped out each marine reserve polygon on its own and arranged in a grid. 
+Data available at: https://data.mfe.govt.nz/layer/52760-marine-reserves/
 
 <a href="https://raw.githubusercontent.com/isaacbain/30daymapchallenge-2021/main/outputs/day3-illustrator.jpg">
   <img src="outputs/day3-illustrator.jpg" width=400 align=centre>
