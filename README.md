@@ -41,3 +41,12 @@ Data available at: https://data.mfe.govt.nz/layer/99906-livestock-numbers-grid-a
 <a href="outputs/day4-illustrator.pdf">
   <img src="outputs/day4-illustrator.jpg" width=400 align=centre>
 </a>
+
+## Day 5 - OpenStreetMap
+
+Today's theme was OpenStreetMap (a collaborative project to create a free editable geographic database of the world). I've never worked with OpenStreetMap data before, and since the Our air 2021 report was recently released which shows air quality in terms of nitrogen dioxide is mostly impacted by traffic (especially heavy traffic) density... I thought I'd make a map showing how air quality monitoring sites related to streets (sourced from OSM). 
+Data available at: https://data.mfe.govt.nz/table/106273-nitrogen-dioxide-concentrations-waka-kotahi-nzta-2007-2020/
+
+<a href="outputs/day5-illustrator.jpg">
+  <img src="outputs/day5-illustrator.jpg" width=400 align=centre>
+</a>
